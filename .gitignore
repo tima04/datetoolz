@@ -127,3 +127,46 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ========= emacs and cpp
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+.\#*
+
+
+# flymake-mode
+*_flymake.*
+
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# c++ 
+*.out
+*.o
+*.so
+*.dll
+
+# data files
+*.json
+*.csv
+*.png
+*.org
+*.parquet*
+*.mock
+*.txt
+*temp*
+*pdf
