@@ -1,4 +1,4 @@
-from datetimetoolz.date import Date, date
+from datetoolz.date import Date, date
 
 class TestDate:
     pass
